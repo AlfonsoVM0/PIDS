@@ -21,7 +21,7 @@ Este documento describe los pasos necesarios para poner en funcionamiento tu ent
    Conéctate al contenedor de PostgreSQL para verificar que la base de datos y las tablas se hayan creado correctamente:
 
    ```bash
-   docker exec -ti pids-postgres-1 /bin/bash
+   docker exec -ti pids-postgres-1 bash
    ```
 
    Dentro de la consola del contenedor, conéctate a la base de datos `taxi_data`:
