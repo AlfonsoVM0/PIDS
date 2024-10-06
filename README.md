@@ -1,10 +1,11 @@
 # PIDS
-# Documentación del Despliegue de Aplicación con Docker, PostgreSQL, Airflow y Superset
+# Documentación del despliegue de Aplicación con Docker, PostgreSQL, Airflow y Superset
 
 Este documento describe los pasos necesarios para poner en funcionamiento tu entorno completo de análisis de datos de viajes en taxi, utilizando Docker Compose, PostgreSQL, Apache Airflow y Apache Superset.
 
 ## **Requisitos previos**
 - Tener Docker y Docker Compose instalados en el sistema.
+- Haber comprobado los permisos en las carpetas necesarias.
 
 ## **Pasos para el Despliegue**
 
