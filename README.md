@@ -56,7 +56,7 @@ Este documento describe los pasos necesarios para poner en funcionamiento tu ent
 ### 5. **Acceder a Apache Airflow**
    Abre un navegador web y ve a `http://localhost:8080`. Esto te llevará a la interfaz de Apache Airflow.
    
-   **Importante:** Para que lo siguiente funcione debe haber algun csv en el directorio data. En este caso hay generada una carpeta "csv_por_fecha" en el que están una serie de archivos csv que simulan los datos de cada día durante un mes. Simplemente se puede copiar (uno o varios) a la carpeta data antes de ejecutar el DAG.
+   **Importante:** Para que lo siguiente funcione debe haber algún csv en el directorio data. En este caso, hay generada una carpeta "csv_por_fecha" en el que están una serie de archivos csv que simulan los datos de cada día durante un mes. Simplemente se puede copiar (uno o varios) a la carpeta data antes de ejecutar el DAG.
 
    - **Usuario**: `admin`
    - **Contraseña**: `admin`
@@ -64,7 +64,7 @@ Este documento describe los pasos necesarios para poner en funcionamiento tu ent
    Dentro de Airflow:
    - Ve a la pestaña de "DAGs".
    - Busca el DAG llamado `load_csv_to_postgres` (importado automáticamente gracias al volumen compartido).
-   - Ejecuta el DAG manualmente (trigger).
+   - Ejecuta el DAG manualmente (trigger). En un escenario real se podría modificar el DAG para ejecutarse diariamente.
 
    Si el DAG se ejecuta correctamente, los siguientes pasos ocurrirán automáticamente:
    - Los archivos CSV en la carpeta `data` se cargan en la tabla `raw_data` de PostgreSQL.
