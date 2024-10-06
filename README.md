@@ -13,7 +13,7 @@ Este documento describe los pasos necesarios para poner en funcionamiento tu ent
    Ejecuta el siguiente comando para iniciar todos los contenedores definidos en el archivo `docker-compose.yml`:
 
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
    Esto levantará los contenedores de PostgreSQL, Airflow (webserver y scheduler) y Superset en modo "detached".
