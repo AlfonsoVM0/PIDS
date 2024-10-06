@@ -1,5 +1,5 @@
 # PIDS
-# Documentación del despliegue de Aplicación con Docker, PostgreSQL, Airflow y Superset
+# Documentación del despliegue de aplicación con Docker, PostgreSQL, Airflow y Superset
 
 Este documento describe los pasos necesarios para poner en funcionamiento tu entorno completo de análisis de datos de viajes en taxi, utilizando Docker Compose, PostgreSQL, Apache Airflow y Apache Superset.
 
@@ -9,7 +9,7 @@ Este documento describe los pasos necesarios para poner en funcionamiento tu ent
 
 ## **Pasos para el Despliegue**
 
-### 1. **Levantar los Contenedores con Docker Compose**
+### 1. **Levantar los contenedores con Docker Compose**
    Ejecuta el siguiente comando para iniciar todos los contenedores definidos en el archivo `docker-compose.yml`:
 
    ```bash
@@ -37,8 +37,8 @@ Este documento describe los pasos necesarios para poner en funcionamiento tu ent
    \d
    ```
 
-### 3. **Verificar que la Tabla `raw_data` esté Vacía**
-   Realiza una consulta simple para verificar que la tabla `raw_data` está vacía (esto es lo esperado, ya que aún no se han cargado datos):
+### 3. **Verificar que las tablas estén vacías**
+   Podemos realizar una consulta simple para verificar que la tabla `raw_data` está vacía (esto es lo esperado, ya que aún no se han cargado datos):
 
    ```sql
    SELECT * FROM raw_data;
