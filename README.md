@@ -57,7 +57,7 @@ Este documento describe los pasos necesarios para poner en funcionamiento tu ent
 ### 5. **Acceder a Apache Airflow**
    Abre un navegador web y ve a `http://localhost:8080`. Esto te llevará a la interfaz de Apache Airflow.
    
-   **Importante:** Para que lo siguiente funcione debe haber algún csv en el directorio `data`. En este caso, hay generada una carpeta `csv_por_fecha` en el que están una serie de archivos csv que simulan los datos de cada día durante un mes. Simplemente se puede copiar (uno o varios) a la carpeta `data` antes de ejecutar el DAG.
+   **Importante:** Para que lo siguiente funcione debe haber algún csv en el directorio `data` dentro de 'airflow . En este caso, hay generada una carpeta `csv_por_fecha` en el que están una serie de archivos csv que simulan los datos de cada día durante un mes. Simplemente se puede copiar (uno o varios) a la carpeta `data` antes de ejecutar el DAG.
 
    - **Usuario**: `admin`
    - **Contraseña**: `admin`
